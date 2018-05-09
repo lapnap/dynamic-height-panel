@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "Dynamic Height",
+  "id": "ryantxu-dynamic-height-panel",
+
+  "info": {
+    "description": "AJAX panel for grafana",
+    "author": {
+      "name": "ryantxu"
+    },
+    "keywords": ["ajax", "panel"],
+    "logos": {
+      "small": "img/stilts.svg",
+      "large": "img/stilts.svg"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/ryantxu/dynamic-height-panel"},
+      {
+        "name": "MIT License",
+        "url": "https://github.com/ryantxu/dynamic-height-panel/blob/master/LICENSE"
+      }
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "5.x.x",
+    "plugins": []
+  }
+}
