@@ -12,6 +12,7 @@ class TestDynamicHeightCtrl extends PanelCtrl {
   running: boolean = false;
   destination = 0;
 
+  /** @ngInject */
   constructor($scope, $injector) {
     super($scope, $injector);
 
