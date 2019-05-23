@@ -26,8 +26,8 @@ jobs:
           command: 'yarn build'
       - run:
           name: zip dist
-          command: 'cd dist && zip -r9 ../lapnap-live-app-dev.zip *'
+          command: 'cd dist && zip -r9 ../dynamic-height-panel-dev.zip *'
       - store_artifacts:
-          path: lapnap-live-app-dev.zip
+          path: dynamic-height-panel-dev.zip
       - store_artifacts:
           path: coverage

@@ -6,6 +6,11 @@ const setup = (propOverrides?: object) => {
   const props: Props = {
     height: 300,
     width: 300,
+    options: {
+      min: 100,
+      max: 300,
+      speed: 100,
+    },
   } as Props; // partial
 
   Object.assign(props, propOverrides);
@@ -19,7 +24,7 @@ const setup = (propOverrides?: object) => {
   };
 };
 
-describe('Render Presense Panel with basic options', () => {
+describe('Render Panel with basic options', () => {
   it('should render', () => {
     const {wrapper} = setup();
     expect(wrapper).toBeDefined();
