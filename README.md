@@ -1,13 +1,8 @@
-## Grafana Dynamic Height testing
+## Lapnap Live for Grafana
 
-[![CircleCI](https://circleci.com/gh/ryantxu/dynamic-height-panel/tree/master.svg?style=svg)](https://circleci.com/gh/ryantxu/dynamic-height-panel/tree/master)
-[![dependencies Status](https://david-dm.org/ryantxu/dynamic-height-panel/status.svg)](https://david-dm.org/ryantxu/dynamic-height-panel)
-[![devDependencies Status](https://david-dm.org/ryantxu/dynamic-height-panel/dev-status.svg)](https://david-dm.org/ryantxu/dynamic-height-panel?type=dev)
+[![CircleCI](https://circleci.com/gh/lapnap/grafana-live-app/tree/master.svg?style=svg)](https://circleci.com/gh/lapnap/grafana-live-app/tree/master)
+[![dependencies Status](https://david-dm.org/lapnap/grafana-live-app/status.svg)](https://david-dm.org/lapnap/grafana-live-app)
+[![devDependencies Status](https://david-dm.org/lapnap/grafana-live-app/dev-status.svg)](https://david-dm.org/lapnap/grafana-live-app?type=dev)
+[![Coverage](https://circleci.com/api/v1.1/project/github/lapnap/grafana-live-app/latest/artifacts/0/home/circleci/repo/coverage/badge-lines.svg)](https://circleci.com/api/v1.1/project/github/lapnap/grafana-live-app/latest/artifacts/0/home/circleci/repo/coverage/lcov-report/index.html)
 
-this is a panel to help test:
-
-https://github.com/grafana/grafana/pull/11829
-
-![Animation](https://raw.githubusercontent.com/ryantxu/dynamic-height-panel/master/anim.gif)
-
-![Resize](https://raw.githubusercontent.com/ryantxu/dynamic-height-panel/master/resize.gif)
+Super early...
