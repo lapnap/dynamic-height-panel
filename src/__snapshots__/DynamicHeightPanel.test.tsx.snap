@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Panel with basic options should render 1`] = `
+<div
+  style={
+    Object {
+      "border": undefined,
+      "height": 100,
+      "padding": "10px",
+    }
+  }
+>
+  <button
+    className="btn btn-secondary"
+    onClick={[Function]}
+  >
+    Stop
+  </button>
+  height: 
+  100
+</div>
+`;
