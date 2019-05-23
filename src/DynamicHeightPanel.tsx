@@ -97,6 +97,7 @@ export class DynamicHeightPanel extends PureComponent<Props, State> {
     const style: CSSProperties = {
       height,
       border: this.props.options.border,
+      padding: '10px',
     };
 
     return (
