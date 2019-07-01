@@ -15,7 +15,7 @@ interface State {
 }
 
 export class DynamicHeightPanel extends PureComponent<Props, State> {
-  frameId: number = 0;
+  frameId = 0;
 
   constructor(props: Props) {
     super(props);
@@ -37,7 +37,7 @@ export class DynamicHeightPanel extends PureComponent<Props, State> {
   }
 
   startLoop = () => {
-    if (this.frameId == 0) {
+    if (this.frameId === 0) {
       this.frameId = window.requestAnimationFrame(this.loop);
       this.setState({
         running: true,

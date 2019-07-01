@@ -1,6 +1,6 @@
 import React from 'react';
-import {shallow} from 'enzyme';
 import {DynamicHeightPanel, Props} from './DynamicHeightPanel';
+import { render } from '@testing-library/react';
 
 const setup = (propOverrides?: object) => {
   const props: Props = {
@@ -15,19 +15,14 @@ const setup = (propOverrides?: object) => {
 
   Object.assign(props, propOverrides);
 
-  const wrapper = shallow(<DynamicHeightPanel {...props} />);
-  const instance = wrapper.instance() as DynamicHeightPanel;
-
-  return {
-    instance,
-    wrapper,
-  };
+  const { asFragment, container } = render(<DynamicHeightPanel {...props} />);
+  return { asFragment, container };
 };
 
 describe('Render Panel with basic options', () => {
   it('should render', () => {
-    const {wrapper} = setup();
-    expect(wrapper).toBeDefined();
-    expect(wrapper).toMatchSnapshot();
+    const { asFragment } = setup();
+
+    expect(asFragment()).toMatchSnapshot();
   });
 });
